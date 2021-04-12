@@ -1,5 +1,7 @@
 '''
 @author : Robernetes
+
+Ejecutar solo este archivo main
 '''
 from to_roman import to_romano
 from to_arabig import to_arabigo
