@@ -2,4 +2,4 @@
 
 ## Intructions
 
-    - Execute `python main.py`
+- Execute `python main.py`
