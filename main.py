@@ -1,15 +1,8 @@
 '''
 @author : Robernetes
 '''
-
-def to_roman():
-    pass
-
-def to_arabig():
-    pass
-
-
-
+from to_roman import to_romano
+from to_arabig import to_arabigo
 
 out = False
 while(not out):
@@ -19,9 +12,12 @@ while(not out):
     print('3. Salir')
     opt = int(input('Ingrese una opcion: '))
     if opt == 1:
-        to_roman()
+        number = int(input('Ingresa un numero entre 1 - 100: '))
+        to_romano(number)
+        print()
     elif opt == 2:
-        to_arabig()
+        letras = input("Ingresa numero en romano: ").upper()
+        to_arabigo(letras)
     elif opt == 3:
         print('Adios!')
         out = True
